@@ -1,0 +1,31 @@
+/*
+Download the package "sass-autocompile",
+then on bash run the the command
+"npm install node-sass -g"
+
+SCSS is just css with a few extra fun things
+You won't be using most of them, however, the most important one is nesting
+
+Your code:
+.same .thing {
+  PROPERTIES
+}
+.same .other-thing {
+  PROPERTIES
+}
+
+Can look like this:
+
+.same {
+  .thing {
+    PROPERTIES
+  }
+  .other-thing
+}
+
+and this all gets dumped into styles.css, if you want to see the output
+*/
+
+.same {
+  color: green;
+}
